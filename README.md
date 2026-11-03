@@ -1,62 +1,53 @@
 # Atelier Expense Tracker
 
-A Python-based personal expense tracking and budgeting application.
+A Python command-line application for recording personal expenses, managing category budgets, searching transactions, and reviewing monthly spending.
 
-> **Status:** Initial development
+**Status:** Working CLI application with automated unit tests.
 
-## Overview
-
-Atelier Expense Tracker is a command-line application designed to help users record day-to-day expenses, understand monthly spending patterns, and monitor category-based budgets. The project is being developed as a practical learning exercise in Python, data handling, and software testing.
-
-## Planned Features
-
-- Record expenses with a date, category, amount, and description
-- View recorded expenses
-- Generate monthly spending summaries
-- Break down expenses by category
-- Set monthly budgets for spending categories
-- Compare spending against budget limits
-- Store records locally using CSV and JSON files
+## Features
+- Add expenses with date, category, amount, and description.
+- View expenses, newest first.
+- Generate monthly totals and category breakdowns.
+- Set and update monthly category budgets.
+- Compare category spending with budget limits.
+- Search by category, date range, and description keyword.
+- Edit and delete existing expense records.
+- Export expenses to a separate CSV file.
+- Validate dates, amounts, and required fields.
+- Store expenses in CSV and budgets in JSON.
+- Automated tests using Python unittest.
 
 ## Technology
+Python 3.10+; CSV and JSON; Python standard library; unittest; Git and GitHub. No third-party packages are required.
 
-- **Language:** Python
-- **Data storage:** CSV and JSON
-- **Testing:** Python unittest
-- **Version control:** Git and GitHub
+## Getting started
+1. Install Python 3.10 or newer and ensure it is on PATH.
+2. Clone this repository:
+   git clone https://github.com/HI4100/Atelier-ET41-Expense-Tracker-.git
+3. Enter the project directory:
+   cd Atelier-ET41-Expense-Tracker-
+4. Run the app:
+   python main.py
+5. Run tests:
+   python -m unittest discover -s tests -v
 
-## Planned Project Structure
+## Menu
+1 Add expense | 2 View all | 3 Monthly summary and budget status | 4 Set/update budget | 5 Search | 6 Edit | 7 Delete | 8 Export CSV | 9 Exit
 
-```text
-Atelier-ET41-Expense-Tracker-/
-├── README.md
-├── main.py
-├── .gitignore
-├── src/
-│   ├── __init__.py
-│   └── tracker.py
-└── tests/
-    └── test_tracker.py
-```
+## Project structure
+- main.py: command-line interface
+- src/tracker.py: expense and budget logic
+- tests/test_tracker.py: automated tests
+- data/: local runtime data (created automatically and excluded from Git)
 
-## Getting Started
+## Design notes
+The core logic is separated from the CLI for independent testing. Decimal is used for currency arithmetic. Each expense receives an ID for editing and deletion. Tests use temporary directories and do not touch personal records.
 
-The setup instructions will be added as the application files are published.
+## Privacy and limitations
+Local, single-user educational project. It does not connect to banks, payment services, or live accounts. Real records are stored locally in data/ and should never be committed to GitHub. CSV/JSON storage is intended for a small personal project, not concurrent multi-user use. No GUI, authentication, or cloud sync is included yet.
 
-## Development Roadmap
-
-- [ ] Build expense recording and validation
-- [ ] Add expense listing
-- [ ] Add monthly and category summaries
-- [ ] Add category budget tracking
-- [ ] Add automated unit tests
-- [ ] Add Excel export and visual reports
-- [ ] Improve documentation and add screenshots
-
-## Learning Objectives
-
-This project demonstrates practical use of Python functions, modules, file handling, input validation, date processing, data aggregation, unit testing, and Git version control.
+## Future improvements
+Desktop or web interface, charts, optional Excel export, SQLite storage, and import with duplicate detection.
 
 ## Disclaimer
-
-This is an educational budgeting project. It does not connect to bank accounts and does not provide financial advice.
+For educational and personal record-keeping purposes only; not financial, tax, or investment advice.
