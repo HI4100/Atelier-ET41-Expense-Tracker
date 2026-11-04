@@ -23,9 +23,9 @@ Python 3.10+; CSV and JSON; Python standard library; unittest; Git and GitHub. N
 ## Getting started
 1. Install Python 3.10 or newer and ensure it is on PATH.
 2. Clone this repository:
-   git clone https://github.com/HI4100/Atelier-ET41-Expense-Tracker-.git
+   git clone https://github.com/HI4100/Atelier-ET41-Expense-Tracker.git
 3. Enter the project directory:
-   cd Atelier-ET41-Expense-Tracker-
+   cd Atelier-ET41-Expense-Tracker
 4. Run the app:
    python main.py
 5. Run tests:
