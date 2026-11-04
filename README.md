@@ -1,4 +1,4 @@
-# Atelier Expense Tracker
+# ATELIER 41 | Expense Tracker
 
 A Python command-line application for recording personal expenses, managing category budgets, searching transactions, and reviewing monthly spending.
 
@@ -51,3 +51,14 @@ Desktop or web interface, charts, optional Excel export, SQLite storage, and imp
 
 ## Disclaimer
 For educational and personal record-keeping purposes only; not financial, tax, or investment advice.
+
+
+---
+
+## ✨ ATELIER 41 Signature
+
+> **Build it clearly. Test it carefully. Document it honestly. Improve it continuously.**
+
+This project is part of my **ATELIER 41** portfolio — a connected collection of practical projects built and documented by **Humza Warsi**.
+
+🔗 GitHub: [@HI4100](https://github.com/HI4100) • ✨ **ATELIER 41**
