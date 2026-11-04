@@ -52,32 +52,6 @@ Desktop or web interface, charts, optional Excel export, SQLite storage, and imp
 ## Disclaimer
 For educational and personal record-keeping purposes only; not financial, tax, or investment advice.
 
-
----
-
-## ✨ ATELIER 41 Signature
-
-> **Build it clearly. Test it carefully. Document it honestly. Improve it continuously.**
-
-This project is part of my **ATELIER 41** portfolio — a connected collection of practical projects built and documented by **Humza Warsi**.
-
-🔗 GitHub: [@HI4100](https://github.com/HI4100) • ✨ **ATELIER 41**
-
-
----
-
-## ✨ ATELIER 41 | Portfolio Signature
-
-**Build it clearly. Test it carefully. Document it honestly. Improve it continuously.**
-
-Created and maintained as part of the **ATELIER 41** project series by **Humza Warsi**.
-
-- Portfolio: [github.com/HI4100](https://github.com/HI4100)
-- Project source: [ATELIER 41 — Expense Tracker](https://github.com/HI4100/Atelier-ET41-Expense-Tracker-)
-
-**Attribution & reuse:** This repository is published as a learning and portfolio project. Please retain this attribution and the project history when referencing or adapting the work. Do not present this repository or its original work as your own. Check the repository license before reusing code or other materials.
-
-
 ---
 
 ## ✨ ATELIER 41
@@ -87,6 +61,6 @@ Created and maintained as part of the **ATELIER 41** project series by **Humza W
 **Humza Warsi ~ Author**  
 Part of the **ATELIER 41** project collection.
 
-🔗 Portfolio: [@HI4100](https://github.com/HI4100)
+🔗 **Portfolio:** [@HI4100](https://github.com/HI4100)
 
-*Maybe fate brought you here for your sparkling future. ✨*
+*Maybe fate brought you here for your sparkling future. ✨ Let's connect and build something meaningful.*
