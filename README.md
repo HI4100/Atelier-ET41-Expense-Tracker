@@ -76,3 +76,17 @@ Created and maintained as part of the **ATELIER 41** project series by **Humza W
 - Project source: [ATELIER 41 — Expense Tracker](https://github.com/HI4100/Atelier-ET41-Expense-Tracker-)
 
 **Attribution & reuse:** This repository is published as a learning and portfolio project. Please retain this attribution and the project history when referencing or adapting the work. Do not present this repository or its original work as your own. Check the repository license before reusing code or other materials.
+
+
+---
+
+## ✨ ATELIER 41
+
+> **Build it clearly. Analyze it carefully. Test it honestly. Improve it continuously.**
+
+**Humza Warsi ~ Author**  
+Part of the **ATELIER 41** project collection.
+
+🔗 Portfolio: [@HI4100](https://github.com/HI4100)
+
+*Maybe fate brought you here for your sparkling future. ✨*
